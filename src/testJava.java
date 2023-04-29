@@ -8,7 +8,7 @@ public class testJava {
     public static void fibonacci (int counter) {
         BigInteger num1 = BigInteger.valueOf(0);
         BigInteger  num2 = BigInteger.valueOf(1);
-        BigInteger  nextNum = BigInteger.valueOf(0);
+        BigInteger  nextNum;
         System.out.println(num1);
         System.out.println(num2);
 
